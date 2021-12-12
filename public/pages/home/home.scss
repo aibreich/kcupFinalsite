@@ -1,0 +1,369 @@
+.home {
+  width: 100vw;
+  height: 1920px;
+  position: relative;
+
+  .hero {
+    background-image: url(../images/hero-banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      position: relative;
+      top: 50px;
+      left: 425px;
+      font-size: 18px;
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      position: relative;
+      top: 90px;
+      left: 325px;
+      font-size: 50px;
+      font-weight: lighter;
+      width: 550px;
+      letter-spacing: 5px;
+    }
+  }
+  .categories {
+    width: 55%;
+    position: absolute;
+    top: 230px;
+    left: 140px;
+    display: flex;
+    justify-content: space-between;
+
+    .cat {
+      width: 120px;
+      height: 35px;
+      border: 3px rgb(148, 147, 147) solid;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(148, 147, 147);
+        padding-top: 18px;
+      }
+      span {
+        background-image: url(../images/down-Arrow.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(148, 147, 147);
+        width: 15px;
+        height: 10px;
+      }
+    }
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 690px;
+
+    .maker {
+      height: 500px;
+      width: 300px;
+      //   border: 2px solid black;
+      margin-bottom: 15px;
+      margin-left: 15px;
+      box-shadow: 2px 2px 23px rgb(185, 185, 185);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .maker-1 {
+        background-image: url(../images/maker-1.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .maker-2 {
+        background-image: url(../images/maker-2.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .maker-3 {
+        background-image: url(../images/maker-3.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .maker-4 {
+        background-image: url(../images/maker-4.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .maker-5 {
+        background-image: url(../images/maker-5.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .maker-6 {
+        background-image: url(../images/maker-6.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .maker-7 {
+        background-image: url(../images/maker-7.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .maker-8 {
+        background-image: url(../images/maker-8.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .maker-9 {
+        background-image: url(../images/maker-9.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .maker-10 {
+        background-image: url(../images/maker-10.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .maker-11 {
+        background-image: url(../images/maker-11.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .maker-12 {
+        background-image: url(../images/maker-12.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+      }
+      .text-cont {
+        width: 270px;
+        height: 150px;
+        position: relative;
+        bottom: 20px;
+        .header {
+          font-weight: normal;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 20px;
+          span {
+            font-size: 14px;
+          }
+        }
+        .price {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 18px;
+        }
+        .rating {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 13px;
+          height: 50px;
+          span {
+            font-size: 10px;
+          }
+        }
+        .btn {
+          width: 100px;
+          height: 35px;
+          border: 2px solid rgb(238, 199, 28);
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          position: relative;
+          left: 85px;
+          bottom: 0px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .home {
+    height: 2450px;
+    .hero {
+      h2 {
+        left: 325px;
+      }
+      p {
+        left: 225px;
+      }
+    }
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      width: 600px;
+      top: 210px;
+
+      .cat {
+        margin-top: 15px;
+        p {
+        }
+        span {
+        }
+      }
+    }
+    .container {
+      grid-template-columns: repeat(3, auto);
+      top: 1000px;
+    }
+    .maker {
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .home {
+    height: 3465px;
+    .hero {
+      left: 90px;
+      h2 {
+        left: 175px;
+      }
+      p {
+        left: 75px;
+      }
+    }
+    .categories {
+      left: 90px;
+      .cat {
+        p {
+        }
+        span {
+        }
+      }
+    }
+    .container {
+      grid-template-columns: repeat(2, auto);
+      top: 1520px;
+    }
+    .maker {
+      height: 300px;
+      width: 120px;
+      .text-cont {
+        width: 90px;
+        height: 80px;
+
+        .header {
+          font-weight: normal;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          span {
+            font-size: 8px;
+          }
+        }
+        .price {
+          font-size: 12px;
+        }
+        .rating {
+          font-size: 12px;
+          height: 50px;
+          span {
+            font-size: 10px;
+          }
+        }
+        .btn {
+          width: 80px;
+          height: 35px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .home {
+    .hero {
+      left: 60px;
+      h2 {
+        left: 125px;
+      }
+      p {
+        left: 50px;
+      }
+    }
+    .categories {
+      left: 60px;
+      .cat {
+        p {
+        }
+        span {
+        }
+      }
+    }
+    .container {
+    }
+    .maker {
+    }
+  }
+}

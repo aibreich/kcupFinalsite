@@ -1,0 +1,194 @@
+footer {
+  width: 100vw;
+  //   height: 600px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .support-bar {
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    // left: 80px;
+    background-color: #3b2b2f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    .left-side {
+      width: 55%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      .locator {
+        background-image: url(../images/store-locator-pin.png);
+        width: 35px;
+        height: 35px;
+        color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: invert(100%);
+        -webkit-filter: invert(100%);
+        padding-bottom: 20px;
+        position: relative;
+        bottom: 10px;
+        left: 50px;
+      }
+      p {
+        color: white;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+    .right-side {
+      width: 35%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      p {
+        color: white;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .footer-icons {
+        background-image: url(../images/social-icons-footer.webp);
+        background-position: 0px;
+        background-repeat: no-repeat;
+        // background-size: cover;
+        width: 90px;
+        height: 25px;
+        position: relative;
+        right: 60px;
+        bottom: 10px;
+      }
+    }
+  }
+
+  .foot-container {
+    width: 90%;
+    position: absolute;
+    top: 50px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, auto);
+
+    .foot-section {
+      height: 350px;
+      width: 300px;
+
+      //   border: 2px black dotted;
+      padding: 20px;
+      h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      }
+      .email {
+        margin-top: 20px;
+        width: 170px;
+        height: 40px;
+        border: 2px solid rgb(148, 147, 147);
+
+        .submit {
+          width: 80px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          font-family: Arial, Helvetica, sans-serif;
+          border: 2px solid rgb(238, 199, 28);
+          position: relative;
+          right: -166px;
+          top: -2px;
+        }
+      }
+    }
+  }
+
+  .footbar {
+    width: 80%;
+    height: 60px;
+    position: absolute;
+    border-top: 1px solid rgb(148, 147, 147);
+    // background-color: yellow;
+    top: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: rgb(148, 147, 147);
+      margin-left: 20px;
+    }
+  }
+}
+@media only screen and (max-width: 1300px) {
+  footer {
+    .support-bar {
+      .left-side {
+        .locator {
+          left: 20px;
+        }
+      }
+      .right-side {
+        .footer-icons {
+          right: 40px;
+        }
+      }
+    }
+    .foot-container {
+      .foot-section {
+        width: 200px;
+        .email {
+          width: 150px;
+          .submit {
+            right: -146px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  footer {
+    .support-bar {
+      left: 60px;
+      .left-side {
+        .locator {
+          left: 9px;
+        }
+      }
+      .right-side {
+        .footer-icons {
+          right: 20px;
+        }
+      }
+    }
+    .foot-container {
+      grid-template-columns: repeat(2, auto);
+      left: 60px;
+      width: 80%;
+      .foot-section {
+        height: 300px;
+        .email {
+          .submit {
+          }
+        }
+      }
+    }
+    .footbar {
+      top: 635px;
+      left: 60px;
+    }
+  }
+}

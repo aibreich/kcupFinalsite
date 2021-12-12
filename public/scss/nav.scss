@@ -1,0 +1,240 @@
+.top-nav {
+  width: 100vw;
+  height: 75px;
+  //   background-color: grey;
+  position: relative;
+  display: flex;
+  align-items: center;
+  // justify-content: space-evenly;
+
+  .k-logo {
+    background-image: url(../images/keurig-logo.svg);
+    width: 175px;
+    height: 40px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+  }
+
+  .srch-bar {
+    position: relative;
+    // top: 30px;
+    left: 365px;
+    width: 600px;
+
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(230, 229, 229);
+    border: 1px rgb(204, 201, 201) solid;
+
+    span {
+      background-image: url(../images/srch-logo.png);
+      width: 25px;
+      height: 25px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 7px;
+      left: 17px;
+    }
+
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+      position: absolute;
+      top: 12px;
+      left: 50px;
+    }
+  }
+  .right-bar {
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .ship-tag {
+      width: 180px;
+      position: relative;
+      // top: 47px;
+      // right: 143px;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .login-icon {
+      background-image: url(../images/profile-Icon.svg);
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      position: relative;
+      // top: 38px;
+      left: 15px;
+    }
+
+    .cart {
+      background-image: url(../images/keurig-cart.svg);
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      position: relative;
+      // top: 38px;
+      right: 0px;
+
+      .counter {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        // background-color: rgba($color: #000000, $alpha: 0.85);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        position: relative;
+        bottom: 10px;
+        left: 17px;
+      }
+    }
+  }
+}
+
+nav {
+  margin-top: 10px;
+  width: 85%;
+  height: 45px;
+  //   background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+  }
+  span {
+    background-image: url(../images/deal-icon.svg);
+    width: 10px;
+    height: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(156, 26, 26);
+    // margin-right: -8px;
+    //   position: absolute;
+    //   left: 10px;
+  }
+  .deals {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    span {
+      background-image: url(../images/deal-icon.svg);
+      width: 10px;
+      height: 10px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: rgb(156, 26, 26);
+      // margin-right: -8px;
+      //   position: absolute;
+      //   left: 10px;
+    }
+    a {
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: rgb(156, 26, 26);
+      font-size: 14px;
+      // margin-left: -8px;
+    }
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .top-nav {
+    .k-logo {
+    }
+    .srch-bar {
+      width: 450px;
+      left: 218px;
+    }
+  }
+  nav {
+    a {
+      font-size: 12px;
+    }
+    .deals {
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .top-nav {
+    .k-logo {
+    }
+    .srch-bar {
+      width: 450px;
+      left: 218px;
+    }
+    .right-bar {
+      width: 120px;
+      .ship-tag {
+        display: none;
+      }
+      .login-icon {
+      }
+      .cart {
+      }
+    }
+  }
+  nav {
+    display: none;
+    a {
+      display: none;
+    }
+    .deals {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 780px) {
+  .top-nav {
+    .k-logo {
+    }
+    .srch-bar {
+      width: 45px;
+      // left: 20px;
+      // top: 50px;
+      span {
+        left: 7px;
+      }
+      p {
+        display: none;
+      }
+    }
+    .right-bar {
+      width: 120px;
+      .ship-tag {
+        display: none;
+      }
+      .login-icon {
+      }
+      .cart {
+      }
+    }
+  }
+} ;
